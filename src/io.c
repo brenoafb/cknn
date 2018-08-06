@@ -15,7 +15,7 @@ bool read_data(const char * filename, int n, int labels[n], int data[n][ISIZE]) 
     char *str;
     int j;
     for (j = 0, str = buffer;; j++, str = NULL) {
-      char *token = strtok(str, " "); 
+      char *token = strtok(str, ","); 
       if (token == NULL) {
         break;
       }
