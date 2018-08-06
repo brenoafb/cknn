@@ -8,4 +8,4 @@ $ ./bin/main.out [train data] [test data]
 ```
 
 The program uses the MNIST database in CSV format.
-
+Parameters (k, number of train and test elements) are defined in the main file.
