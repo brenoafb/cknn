@@ -3,7 +3,7 @@
 #include "knn.h"
 
 #define NTRAIN 2000
-#define NTEST 200
+#define NTEST 500
 #define K 5
 
 int main(int argc, char *argv[]) {
